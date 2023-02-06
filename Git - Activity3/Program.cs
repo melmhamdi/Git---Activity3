@@ -30,7 +30,7 @@ internal class Program
                     Cars();
                     break;
 
-                case ConsoleKey.D7:
+                case ConsoleKey.D5:
                     VideoGames();
                     break;
 
@@ -264,5 +264,520 @@ internal class Program
             MsgNextScreen("Press a key to go to the main menu");
         }
     }
+    //CARS
+    public static void Cars()
+    {
 
+
+        int cars1, cars2, cars3, cars4, cars5;
+
+        Console.WriteLine("Write kind of fuel does a hybrid car use?");
+        Console.WriteLine("1.Gasoline");
+        Console.WriteLine("2.Diesel");
+        Console.WriteLine("3.Electric");
+        Console.WriteLine("4.Gas");
+        Console.WriteLine();
+
+        cars1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+        try
+        {
+
+            switch (cars1)
+            {
+                case 1:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+
+            Console.WriteLine("What company is the manufacturer of Tesla vehicles?");
+            Console.WriteLine("1.Ford");
+            Console.WriteLine("2.General Motors");
+            Console.WriteLine("3.Toyota");
+            Console.WriteLine("4.Tesla, Inc.");
+            Console.WriteLine();
+
+            cars2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+
+            switch (cars2)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("Correcte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+
+            Console.WriteLine("What system is used to brake an electric car?");
+            Console.WriteLine("1.Disc brakes");
+            Console.WriteLine("2.Drum brakes");
+            Console.WriteLine("3.energy regeneration");
+            Console.WriteLine("4.air brakes");
+            Console.WriteLine();
+
+            cars3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (cars3)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+
+            Console.WriteLine("What system helps a car to maintain its speed and safety distance with the vehicle that precedes it?");
+            Console.WriteLine("1.Stability control");
+            Console.WriteLine("2.Lane Keep Assist");
+            Console.WriteLine("3. adaptive cruise control");
+            Console.WriteLine("4.Traction control");
+            Console.WriteLine();
+
+            cars4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (cars4)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+            Console.WriteLine("What type of transmission is most commonly found in electric vehicles?");
+            Console.WriteLine("1.automatic");
+            Console.WriteLine("2.Manual");
+            Console.WriteLine("3. Keep going");
+            Console.WriteLine("4.semiautomatic");
+            Console.WriteLine();
+
+            cars5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (cars5)
+            {
+                case 1:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            MsgNextScreen("Press a key to go to the main menu");
+        }
+    }
+
+    //VIDEO GAMES
+    public static void VideoGames()
+    {
+        int videogames1, videogames2, videogames3, videogames4, videogames5;
+
+        Console.WriteLine("What video game console is developed by Microsoft?");
+        Console.WriteLine("1.PlayStation");
+        Console.WriteLine("2.Xbox");
+        Console.WriteLine("3. nintendoswitch");
+        Console.WriteLine("4.pc");
+        Console.WriteLine();
+
+        videogames1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+        try
+        {
+
+            switch (videogames1)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+
+            Console.WriteLine("What company developed the video game Minecraft?");
+            Console.WriteLine("1.Mojang Studios");
+            Console.WriteLine("2.Epic Games");
+            Console.WriteLine("3. valve corporation");
+            Console.WriteLine("4.Ubisoft");
+            Console.WriteLine();
+
+            videogames2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+
+            switch (videogames2)
+            {
+                case 1:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+            Console.WriteLine("What genre of video games is characterized by having a story and main characters?");
+            Console.WriteLine("1.Strategy games");
+            Console.WriteLine("2.Role playing games");
+            Console.WriteLine("3.Race games");
+            Console.WriteLine("4.platform games");
+            Console.WriteLine();
+
+            videogames3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (videogames3)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+
+            Console.WriteLine("What type of video game is characterized by being played in a single session and having an unexpected ending?");
+            Console.WriteLine("1.Strategy games");
+            Console.WriteLine("2.Role playing games");
+            Console.WriteLine("3.Race games");
+            Console.WriteLine("4.Adventure games");
+            Console.WriteLine();
+
+            videogames4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (videogames4)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("Correcte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+            Console.WriteLine("What video game is considered one of the best sellers in history?");
+            Console.WriteLine("1.Tetris");
+            Console.WriteLine("2.Super Mario Bros");
+            Console.WriteLine("3.Minecraft");
+            Console.WriteLine("4.Grand Theft Auto V");
+            Console.WriteLine();
+
+            videogames5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (videogames5)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+        }
+
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            MsgNextScreen("Press a key to go to the main menu");
+        }
+    }
+
+    public static void Basketball()
+    {
+
+        //BASKETBALL
+
+        int basket1, basket2, basket3, basket4, basket5;
+
+
+        Console.WriteLine("Who won the last NBA championship?");
+        Console.WriteLine("1.The Lakers");
+        Console.WriteLine("2.the celtics");
+        Console.WriteLine("3.The Warriors");
+        Console.WriteLine("4.The Heat");
+        Console.WriteLine();
+
+        basket1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+        try
+        {
+
+            switch (basket1)
+            {
+                case 1:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+            Console.WriteLine("How many players are on a basketball team on the court?");
+            Console.WriteLine("1.5");
+            Console.WriteLine("2.6");
+            Console.WriteLine("3.7");
+            Console.WriteLine("4.8");
+            Console.WriteLine();
+
+            basket2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (basket2)
+            {
+                case 1:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+
+            Console.WriteLine("Which player is known as the King of the NBA?");
+            Console.WriteLine("1.Michael Jordan");
+            Console.WriteLine("2.Kareem Abdul-Jabbar");
+            Console.WriteLine("3.Lebron James");
+            Console.WriteLine("4.wilt chamberlain");
+            Console.WriteLine();
+
+            basket3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (basket3)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 3:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+            Console.WriteLine("What player has the most touchdowns in NBA history?");
+            Console.WriteLine("1.Michael Jordan");
+            Console.WriteLine("2.Kareem Abdul-Jabbar");
+            Console.WriteLine("3.Lebron James");
+            Console.WriteLine("4.wilt chamberlain");
+            Console.WriteLine();
+
+            basket4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+
+            switch (basket4)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+
+            Console.WriteLine("How many points are scored for a 3-point shot in the NBA?");
+            Console.WriteLine("1.2");
+            Console.WriteLine("2.3");
+            Console.WriteLine("3.4");
+            Console.WriteLine("4.5");
+            Console.WriteLine();
+
+            basket5 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            switch (basket5)
+            {
+                case 1:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 2:
+                    Console.WriteLine("Correcte");
+                    break;
+                case 3:
+                    Console.WriteLine("incorrecte");
+                    break;
+                case 4:
+                    Console.WriteLine("incorrecte");
+                    break;
+
+                default:
+                    Console.WriteLine("Resposta incorrecta");
+                    break;
+            }
+        }
+
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            MsgNextScreen("Press a key to go to the main menu");
+        }
+    }
 }
